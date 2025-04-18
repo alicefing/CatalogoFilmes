@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+
+h1{
+    color:brown;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+
+.navb {
+    display: flex;
+    background: rgb(0, 0, 0);
+    padding: 15px;
+    justify-content: center;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('image/aftersun.jpeg');
+    background-size: cover;
+    background-position:center;
+}
+
+.navb ul{
+    display: flex;
+    gap:100px;
+}
+
+.navb a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.forms{
+    border: 5px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;  
+}
+
+button{
+    color:rgb(10, 73, 73);
+    background-color: rgb(219, 202, 202);
+    border-radius: 5px;
+    border-color: beige;
+}
+
+.indica{
+    background-color: rgb(157, 199, 199);
+}
+
+.filmes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+img{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+input{
+    width: 300px; 
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
